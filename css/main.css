@@ -773,6 +773,59 @@
     }
 
 
+    /* Footer */
+
+    footer {
+        background-color: #353535;
+        padding-top: 40px;
+        margin-top: 20px;
+    }
+
+    footer .contenedor {
+        color: #ffffff;
+        padding: 0 20px;
+        font-size: 12px;       
+    }
+
+    @media only screen and (min-width:768px) {
+        footer .contenedor > div {
+            width: 30%;
+            margin-left: 30px;
+            float: left;
+           
+        }
+    }
+
+    footer h3 {
+        color: #ffffff;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        margin-bottom: 20px;
+    }
+
+    footer h3 span {
+        color: #fe4918;
+    }
+    footer .ultimos-tweets li {
+        margin-bottom: 10px;
+    }
+
+    footer nav.redes-sociales {
+        text-align: left;
+    }
+
+    p.copyright {
+        background-color: #2e2e2e;
+        color: #ffffff;
+        padding: 10px 0;
+        margin: 20px 0 0 0;
+        text-align: center;
+    }
+
+
+
+
+
 
 
 
