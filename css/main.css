@@ -647,7 +647,7 @@
 
     div.mapa {
         height: 420px;
-        background-color: green;
+        /* background-color: green; */
     }
 
     /* Testimoniales */
@@ -958,6 +958,10 @@
 
     input [disabled].button {
         opacity: .5;
+    }
+
+    .lbelEmail{
+        padding: 20px;
     }
 
     #error {

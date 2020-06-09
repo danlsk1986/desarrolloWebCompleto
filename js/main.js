@@ -4,12 +4,25 @@
     var regalo = document.getElementById('regalo');
 
     document.addEventListener('DOMContentLoaded', function(){
+
+        //Mapa Leaflet API
+
+        var map = L.map('mapa').setView([-34.562277, -58.686272], 16);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        L.marker([-34.562277, -58.686272]).addTo(map)
+        .bindPopup('GDLWebCamp 2020 <br> boletos ya disponibles.')
+        .openPopup();
+
         
         // //Datos usuario
         var nombre = document.getElementById('nombre');
         var apellido = document.getElementById('apellido');
         var email = document.getElementById('email');
-
+        
         
         
         // //Campos pases
