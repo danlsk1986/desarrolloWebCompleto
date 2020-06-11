@@ -21,8 +21,7 @@
         // //Datos usuario
         var nombre = document.getElementById('nombre');
         var apellido = document.getElementById('apellido');
-        var email = document.getElementById('email');
-        
+        var email = document.getElementById('email');        
         
         
         // //Campos pases
@@ -169,21 +168,7 @@
                 document.getElementById(diasElegidos[i]).style.display = "block";
             }
             
-        }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+        }  
     
     
     
@@ -193,3 +178,28 @@
 
 
 })();
+
+$(function(){
+    
+    //Programa de Conferencias
+    $('.programa-evento .info-curso:first').show();
+    
+    $('.menu-programa a:first').addClass('activo');
+
+    $('.menu-programa a').on('click', function(){
+
+        $('.menu-programa a').removeClass('activo');
+        $(this).addClass('activo');        
+        $('.ocultar').fadeOut(500);
+        var enlace = $(this).attr('href');
+        $(enlace).fadeIn(1000);
+        
+        return false;
+    })
+
+
+
+
+
+
+});
