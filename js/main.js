@@ -222,6 +222,17 @@ $(function(){
     
     
     //Programa de Conferencias
+
+    var url = window.location.href;
+
+    if(url == 'http://127.0.0.1:5500/conferencia.html'){        
+    
+        $('.navegacion-principal a:first').removeClass('activo');
+        
+    }
+    
+
+
     $('.programa-evento .info-curso:first').show();
     
     $('.menu-programa a:first').addClass('activo');
