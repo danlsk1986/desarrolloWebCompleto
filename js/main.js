@@ -45,9 +45,25 @@
         var etiquetas = document.getElementById('etiquetas');
         var camisas = document.getElementById('camisa-evento');
 
+<<<<<<< HEAD
         if(document.getElementById('calcular')){
 
         
+=======
+        var ubicacion = window.location.href;
+
+
+       if(ubicacion.includes('conferencia')){
+           $('.navegacion-principal a' ).removeClass('activo');
+           console.log('remover');           
+       }
+        
+     
+
+
+
+        if(document.getElementById('calcular')){        
+>>>>>>> 0f71511... Conectando nuetra pagina a SQL
 
 
         //Event Listeners

@@ -388,6 +388,13 @@
         background-color: #fe4918;
         
     }
+<<<<<<< HEAD
+=======
+
+    nav.navegacion-principal a:first-child {
+       margin-top: 100px;       
+    }
+>>>>>>> 0f71511... Conectando nuetra pagina a SQL
     
     nav.navegacion-principal a:last-child {
         border: 2px solid #fe4918;
@@ -413,6 +420,13 @@
             text-align: center;
             margin: 0 10px 0 0;
         }
+<<<<<<< HEAD
+=======
+
+        nav.navegacion-principal a:first-child {
+            margin-top: 0px;       
+         }
+>>>>>>> 0f71511... Conectando nuetra pagina a SQL
     }
     /* Menu Movil */
     
@@ -502,7 +516,11 @@
         border-bottom: 1px solid #fe4918;
     }
 
+<<<<<<< HEAD
      .activo::after {
+=======
+    .activo::after {
+>>>>>>> 0f71511... Conectando nuetra pagina a SQL
         position: absolute;
         content: '';
         left: 0;
